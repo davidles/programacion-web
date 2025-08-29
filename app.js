@@ -57,4 +57,37 @@ edad = 32;
 
 
 
+// Tipos de datos
+
+// Number
+let age = 32; // Type Number | int = entero
+let average = 47.7; // Type Number | Float
+
+
+// String
+// Comillas dobles
+let user = "emaProgramming"; // Type String = Cadena de texto || caracteres
+let char = "e"; // Type String
+
+// Comillas simples
+let name = 'ema';
+
+// Backticks = Literal template || template string
+let lastName = `
+Esto
+    Es
+        Un
+            Texto literal
+`;
+
+let errors = 1;
+
+let message = `Usted tiene ${errors} para solucionar`;
+
+let msg = 'Usted tiene ' + errors + ' para solucionar';
+
+console.log(msg);
+
+
+
 
