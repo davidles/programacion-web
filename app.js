@@ -86,7 +86,75 @@ let message = `Usted tiene ${errors} para solucionar`;
 
 let msg = 'Usted tiene ' + errors + ' para solucionar';
 
-console.log(msg);
+
+
+
+
+
+
+
+
+// Operadores
+
+// Aritmeticos
+const suma = 3 + 3; // suma
+const restar = 3 - 3; // resta 
+const multiplicacion = 3 * 3; // multiplicacion 
+const division = 3 / 3; // division 
+const modulo = 5 % 2;
+
+// De comparacion
+
+let a = 3;
+const b = '3';
+const c = 5;
+
+// Type Boolean = true / false
+
+//'==' Comparacion Compara el valor de las variables
+// const resultado = a == b
+
+// '===' Comparacion estricta = Comparar el tipo y valor
+
+// const resultado = a === b;
+
+// Mayor y menor
+const resultadoMayor = a > c;
+const resultadoMenor = a < c;
+const mayorOIgual = a >= b;
+const menorOIgual = a <= c;
+
+// Distinto
+// Compara el valor
+const diferenteValor = a != b;
+
+// Compara el valor y el tipo
+const diferenteValorYTipo = a !== b;
+
+
+// De asignacion
+
+const d = 'un valor';
+a = 3;
+// a = a + 5;
+// a += 5
+// a -= 2
+
+// a = a * 2;
+// a *= 2
+// 6
+// Aumentar y disminuir
+
+// a = a + 1;
+// a++;
+// a = 4
+
+// a = a - 1;
+a--;
+
+
+
+console.log(a);
 
 
 
